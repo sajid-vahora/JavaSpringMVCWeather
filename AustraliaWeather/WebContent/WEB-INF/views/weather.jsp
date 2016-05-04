@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>All Weather</title>
 </head>
 <!-- load jquery -->
 <script type="text/javascript" src="<%=request.getContextPath()%>/resources/js/jquery-1.12.3.min.js"></script>
@@ -30,9 +30,9 @@
 						} else{
 							var finaldata = "<tbody><tr><td>City</td><td>"	+ data.city + "</td></tr>" + 
 											"<tr><td>Updated Time</td><td>" + data.updatedTime + "</td></tr>" +
-											"<tr><td>Weather</td><td>"	+ data.weather + "</td></tr>" +
-											"<tr><td>Temperature</td><td>"	+ data.temperature	+ "</td></tr>" +
-											"<tr><td>Wind</td><td>" + data.wind + "</td></tr>";
+											"<tr><td>Weather </td><td>"	+ data.weather + "</td></tr>" +
+											"<tr><td>Temperature (Cel)</td><td>"	+ data.temperature	+ "</td></tr>" +
+											"<tr><td>Wind (mps)</td><td>" + data.wind + "</td></tr>";
 							finaldata = finaldata + "</tbody>";
 							$("#weatherTable").html(finaldata);
 							$("#error").empty();

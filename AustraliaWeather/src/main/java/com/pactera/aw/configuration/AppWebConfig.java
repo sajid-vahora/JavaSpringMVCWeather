@@ -17,8 +17,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages={"com.pactera.aw.controller", "com.pactera.aw.service", "com.pactera.aw.dao", "com.pactera.aw..component", 
-		"com.pactera.aw.configuration"})
+@ComponentScan(basePackages={"com.pactera.aw.controller"})
 public class AppWebConfig extends WebMvcConfigurerAdapter{
 	
 	@Override

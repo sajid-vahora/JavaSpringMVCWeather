@@ -27,7 +27,7 @@ public class ApplicationInitializer //implements WebApplicationInitializer {
 */	
 	@Override
 	protected Class<?>[] getRootConfigClasses() {
-		return new Class[] { AppWebConfig.class};//, AppConfig.class};
+		return new Class[] { AppWebConfig.class, AppConfig.class};
 	}
 
 	@Override
